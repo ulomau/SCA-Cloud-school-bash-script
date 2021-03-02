@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Full system update
+# Full system update on Ubuntu 16.04 Linux distro
 
 # Functions:
 
@@ -36,8 +36,10 @@ exit
 var="update"
 
 if [ "$var" == "update" ]; then
-    update                                                                                                                  upgrade
-    clean_up                                                                                                                completed
+    update
+    upgrade
+    clean_up 
+    completed
 
 fi
 
